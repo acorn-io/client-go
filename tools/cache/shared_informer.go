@@ -301,7 +301,7 @@ const (
 	syncedPollPeriod = 100 * time.Millisecond
 
 	// initialBufferSize is the initial number of event notifications that can be buffered.
-	initialBufferSize = 1024
+	initialBufferSize = 4
 )
 
 // WaitForNamedCacheSync is a wrapper around WaitForCacheSync that generates log messages
